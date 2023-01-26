@@ -15,7 +15,7 @@ print(df)
 
 # Step 2: load the api data into postgress database using the psycopg2 library
 
-conn_string = 'postgres://postgres:anil@127.0.0.1/DataTask'
+conn_string = 'postgres://postgres:anil@127.0.0.1:5432/DataTask'
   
 db = SQLAlchemy(conn_string)
 conn = db.connect()
